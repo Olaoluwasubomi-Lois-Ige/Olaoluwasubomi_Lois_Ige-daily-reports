@@ -1,0 +1,95 @@
+  795  man git
+  796  git --help
+  797  git help clone
+  798  git config --global user.name "Olaoluwasubomi Lois Ige"
+  799  git config --global user.email "olaoluwasubomi.ige@aims.ac.rw"
+  800  git init
+  801  cd
+  802  mkdir simplesstats
+  803  mv simplesstats simplestats
+  804  cd simplestats
+  805  git init
+  806  ls -A .git
+  807  cd .git
+  808  ls -A
+  809  cd config
+  810  cd branches
+  811  ls -A
+  812  cd ..
+  813  ls -A
+  814  nano config
+  815  nano description
+  816  tree
+  817  nano config
+  818  nano HEAD
+  819  cd .git
+  820  ls
+  821  nano description
+  822  gedit description
+  823  tre
+  824  tree
+  825  git status
+  826  pwd
+  827  cd ../
+  828  git status
+  829  git add
+  830  touch README.md
+  831  git status
+  832  git add README.md
+  833  git status
+  834  git commit -am "This is my first commit. I added a readme file"
+  835  git status
+  836  git diff
+  837  gedit description
+  838  gedit README.md
+  839  git diff
+  840  git diff --stat
+  841  git diff HEAD -- [path]
+  842  pwd
+  843  git diff HEAD -- /home/lois/simplestats
+  844  git diff --cached
+  845  git log
+  846  git status
+  847  git add
+  848  git commit -am "This is my 2nd commit"
+  849  git status
+  850  git log
+  851  -p
+  852  git log -p
+  853  git log --until=X.minutes/hours/days/weeks/months/years or YY-MM-DD-HH:MM
+  854  gedit temp_notes
+  855  status
+  856  git status
+  857  git reset temp_notes
+  858  git status
+  859  git reset temp_notes
+  860  git status
+  861  git add temp_notes
+  862  git status
+  863  git add temp_notes
+  864  git status
+  865  git reset temp_notes
+  866  git status
+  867  gedit README.md
+  868  git status
+  869  git checkout -- README.md
+  870  git status
+  871  gedit READYOU.md
+  872  git commit -am "My family first name"
+  873  git status
+  874  git rm READYOU.md
+  875  ls
+  876  git rm READYOU.md
+  877  git add READYOU.md
+  878  git rm READYOU.md
+  879  git status
+  880  git rm .Rhistory
+  881  git add .Rhistory
+  882  git rm .Rhistory
+  883  git status
+  884  git add README.md
+  885  rm README.md
+  886  git status
+  887  git checkout -- README.md
+  888  git status
+  889  history >> Olaoluwasubomi_Lois_Ige-day4-report.txt
